@@ -6,4 +6,4 @@ module.exports = {
 	arrowParens: 'avoid',
 	semi: flase,
 	printWidth: 90
-}
+} 
