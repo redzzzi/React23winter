@@ -1,3 +1,3 @@
-export default function CopyMe() {
-  return <div>CopyMe</div>
+export default function ReactOnClick() {
+  return <div>ReactOnClick</div>
 }
