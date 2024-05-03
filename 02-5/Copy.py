@@ -2,11 +2,8 @@
 import shutil
 import os
 
-# 현재 경로 설정
-current_path = "02-5/src/"
-
-# 대상 디렉토리 설정
-target_directory = "02-5/src/pages/"
+copy_path = "src/copy/"
+paste_path = "src/pages/"
 
 # 복사할 파일명 리스트
 file_names = [
@@ -25,6 +22,6 @@ file_names = [
 
 # 파일을 복사하여 붙여넣기
 for file_name in file_names:
-    source_file = os.path.join(current_path, "copy", "CopyMe.tsx")
-    target_file = os.path.join(target_directory, file_name)
+    source_file = os.path.join(copy_path, "CopyMe.tsx")
+    target_file = os.path.join(paste_path, file_name)
     shutil.copy(source_file, target_file)
