@@ -11,19 +11,19 @@ import DragDrop from './pages/DragDrop'
 import FileDrop from './pages/FileDrop'
 
 export default function App() {
-	return (
-		<div>
-			<FileDrop />
-			<DragDrop />
-			<FileInput />
-			<OnChange />
-			<VariousInputs />
-			<DispatchEvent />
-			<StopPropagation />
-			<EventBubbling />
+  return (
+    <div>
+      <FileDrop />
+      <DragDrop />
+      <FileInput />
+      <OnChange />
+      <VariousInputs />
+      <StopPropagation />
+      <EventBubbling />
+      {/* <DispatchEvent />
 			<ReactOnClick />
 			<OnClick />
-			<EventListener />
-		</div>
-	)
+			<EventListener /> */}
+    </div>
+  )
 }
