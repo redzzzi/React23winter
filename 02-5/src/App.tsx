@@ -15,12 +15,12 @@ export default function App() {
     <div>
       <FileDrop />
       <DragDrop />
-      <FileInput />
+      {/* <FileInput />
       <OnChange />
       <VariousInputs />
       <StopPropagation />
       <EventBubbling />
-      {/* <DispatchEvent />
+      <DispatchEvent />
 			<ReactOnClick />
 			<OnClick />
 			<EventListener /> */}
