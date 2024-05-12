@@ -6,7 +6,7 @@ export default function FileInput() {
     if (files) {
       for (let i = 0; i < files.length; i++) {
         const file: File | null = files.item(i) // or        file = files[i]
-        console.log('file[${i}]: ', file)
+        console.log(`file[${i}]: `, file) // 업로드 된 파일에 인덱싱하기
       }
     }
   }
